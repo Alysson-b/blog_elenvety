@@ -1,0 +1,174 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("https://img.freepik.com/fotos-premium/fundo-de-tecnologia-abstrata-de-codigo-de-programacao-do-desenvolvedor-de-software-e-script-de-computador_34663-31.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #d3d0d0;
+    color: #070707;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  header nav ul li a {
+    color: rgb(9, 85, 250);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  .posts {
+    margin: 20px 0;
+  }
+  
+  .post {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+  }
+  
+  .post h2 {
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    margin-bottom: 15px;
+  }
+  
+  .post a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .post a:hover {
+    background-color: #ddd;
+  }
+  
+
+  .pagination {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+  
+
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    border-top: 1px solid #ddd;
+  }
+  
+
+.descrition-sobre{
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.comment p {
+  margin: 0;
+}
+
+#commentForm {
+  margin-top: 20px;
+}
+
+#commentForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#commentForm input, #commentForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#commentForm button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#commentForm button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./blog/css/index.css">
+    <title>Blog GoDev</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./sobre.html">Sobre-Nós</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="posts">
+            <article class="post">
+               <h2>Seja bem-vindo</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sequi sint praesentium maxime aliquid sit eaque nesciunt, harum error reiciendis molestiae, blanditiis incidunt obcaecati aut mollitia, necessitatibus non eligendi sed.</p>
+               <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptatibus laboriosam eaque expedita debitis sapiente aliquid distinctio esse tempora! In ea quasi repudiandae veniam accusamus, expedita cupiditate inventore nam ullam!
+               </p>
+               <a href="#">Ler mais</a>
+               <div class="tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Desenvolvimento Web</span>
+               </div>
+               <section class="comments">
+                    <h3>Comentários</h3>
+                    <div class="comment">
+                        <p><strong></strong></p>
+                    </div>
+                    <div class="comment">
+                        <p><strong></strong></p>
+                    </div>
+                    <form id="commentForm">
+                        <label for="commenterName">Nome:</label>
+                        <input type="text" id="commenterName" name="commenterName" required>
+                        <label for="commentText">Comentário:</label>
+                        <textarea  id="commentText" name="commentText" required></textarea>
+                        <button type="submit">Enviar Comentário</button>
+                    </form>
+               </section>
+            </article>
+        </section>
+        <section class="posts">
+            <article class="post">
+               <h2>Conheça sobre:</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sequi sint praesentium maxime aliquid sit eaque nesciunt, harum error reiciendis molestiae, blanditiis incidunt obcaecati aut mollitia, necessitatibus non eligendi sed.</p>
+               <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptatibus laboriosam eaque expedita debitis sapiente aliquid distinctio esse tempora! In ea quasi repudiandae veniam accusamus, expedita cupiditate inventore nam ullam!
+               </p>
+               <a href="#">Ler mais</a>
+               <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">Tutorial</span>
+               </div>
+               <section class="comments">
+                    <h3>Comentários</h3>
+                    <div class="comment">
+                        <p><strong></strong></p>
+                    </div>
+                    <form id="commentForm">
+                        <label for="commenterName">Nome:</label>
+                        <input type="text" id="commenterName" name="commenterName" required>
+                        <label for="commentText">Comentário:</label>
+                        <textarea id="commentText" name="commentText" required></textarea>
+                        <button type="submit">Enviar Comentário</button>
+                    </form>
+               </section>
+            </article>
+        </section>
+
+        <div class="pagination">
+            <a href="#">Anterior</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">Próximo</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Go Dev Blog. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./blog/js/index.js"></script>
+</body>
+</html>
